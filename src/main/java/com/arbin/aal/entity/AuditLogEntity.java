@@ -11,8 +11,8 @@ import org.springframework.data.cassandra.core.mapping.Table;
 import java.sql.Timestamp;
 import java.util.UUID;
 
-@Data
-@Table(value = "audit_log")
+/*@Data
+@Table(value = "audit_log")*/
 public class AuditLogEntity {
 
     @PrimaryKeyColumn(name = "app_name", ordinal = 0, type = PrimaryKeyType.PARTITIONED)
